@@ -1,0 +1,75 @@
+/******** MAIN ********/
+
+main #apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+main #apresentacao #name {
+    text-align: left;
+}
+
+main #apresentacao #name h1 {
+    font-size: 4rem;
+}
+
+main #apresentacao #name h1 span {
+    color: #FF003D;
+}
+
+main #apresentacao #name h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FF003D;
+}
+
+main #apresentacao #name p {
+    width: 25rem;
+    font-weight: 300;
+}
+
+main #topicos-site1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+    color: #000;
+}
+
+main #topicos-site1 .layout-topicos{
+    background: #fff;
+    color: #000;
+}
+
+main #topicos-site1 .layout-topicos h2{
+    color: #FF003D;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+main #topicos-site1 .layout-topicos p{
+    width: 30rem;
+}
+
+main #topicos-site2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+}
+
+main #topicos-site2 .layout-topicos h2{
+    color: #FF003D;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+main #topicos-site2 .layout-topicos p{
+    width: 30rem;
+}
