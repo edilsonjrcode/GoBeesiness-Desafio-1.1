@@ -134,14 +134,16 @@ main #topicos-site2 .layout-topicos2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: auto;
+        padding: 10rem;
     }
     
     main #topicos-site2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: auto;
+        padding: 10rem;
     }
 
     main #topicos-site1 .layout-topicos h2,
