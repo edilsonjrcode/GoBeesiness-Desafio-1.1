@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8.5rem 4rem 1.5rem 4rem;
+    width: 40rem;
+}
+
+main #title #line {
+    background: #FF003D;
+    height: 5px;
+    width: 2rem;
+    margin-right: .6rem;
+    margin-bottom: .3rem;
+}
+
+#atuacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+
+#atuacao .container-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+
+
+#atuacao .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid red;
+    width: 40%;
+    padding: 1rem;
+}
+
+#atuacao .card-info .empresa{
+    color: #FF003D;
+}

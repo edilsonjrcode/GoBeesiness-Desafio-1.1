@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 4rem 2rem 4rem;
+    width: 25rem;
+}
+
+main #title #line {
+    background: #FF003D;
+    height: 5px;
+    width: 2rem;
+    margin-right: .6rem;
+    margin-bottom: .3rem;
+}
+
+#formacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 80vh;
+}
+
+#formacao .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid red;
+    width: 40%;
+    padding: 1rem;
+}
+
+#formacao .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid red;
+    width: 40%;
+    padding: 1rem;
+}
+
+#formacao .card-info .instituicao{
+    color: #FF003D;
+}
