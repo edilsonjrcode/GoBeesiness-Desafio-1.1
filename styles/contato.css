@@ -1,0 +1,129 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8.5rem 4rem 1.5rem 4rem;
+    width: 25rem;
+}
+
+main #title #line {
+    background: #FF003D;
+    height: 5px;
+    width: 2rem;
+    margin-right: .6rem;
+    margin-bottom: .3rem;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 90vh;
+}
+
+#contato #info-pessoal{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: flex-start;
+}
+
+#contato #info-pessoal a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0rem 1rem 1rem 0rem;
+
+}
+
+#contato #info-pessoal span{
+    color: #FF003D;
+}
+
+
+#contato #social-media #media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+#contato #form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contato #form h2{
+    margin-bottom: 1rem;
+}
+
+#contato #form input{
+    background: transparent;
+    border: none;
+    height: 2rem;
+    width: 24.7rem;
+    border-bottom: 1px solid red;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+#contato #form input:focus{
+    outline: 1px groove transparent;
+    box-shadow:transparent;
+}
+
+#contato #form #assunto{
+    background: transparent;
+    border: none;
+    height: 2rem;
+    width: 50rem;
+    border-bottom: 1px solid red;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+#contato #form #msg{
+    background: transparent;
+    border: none;
+    height: 10rem;
+    width: 50rem;
+    border-bottom: 1px solid red;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: initial;
+}
+
+#contato #form #msg:focus{
+    outline: 1px groove transparent;
+    box-shadow:transparent;
+}
+
+
+#button-submit  {
+    margin-top: .7rem;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: .8rem 1rem;
+    border-radius: 1rem;
+    transition: .2s ease-in-out;
+    color: #000;
+    background: #fff;
+    width: 40%;
+    border: none;
+}
+
+#button-submit:hover {
+    color: #fff;
+    background: transparent;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #FF003D;
+}
