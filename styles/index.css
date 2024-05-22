@@ -31,6 +31,31 @@ main #apresentacao #name p {
     font-weight: 300;
 }
 
+@media (max-width: 450px) {
+
+    main #apresentacao #name h1 {
+        font-size: 3rem;
+    }
+
+    main #apresentacao #name h5 {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #FF003D;
+    }
+    
+    main #apresentacao #name p {
+        width: 15rem;
+        font-weight: 300;
+        font-size: .8rem;
+    }
+
+    main #apresentacao #name .button-mais {
+        padding: .7rem .9rem;
+        font-size: .8rem;
+    }
+}
+
+
 main #topicos-site1 {
     display: flex;
     justify-content: space-around;
@@ -40,25 +65,31 @@ main #topicos-site1 {
     color: #000;
 }
 
-main #topicos-site1 .layout-topicos{
+main #topicos-site1 .layout-topicos {
     background: #fff;
     color: #000;
     padding-bottom: 10rem;
 }
 
-main #topicos-site1 .layout-topicos2{
+main #topicos-site1 .layout-topicos2 {
     background: #fff;
     color: #000;
     padding-top: 5rem;
 }
 
-main #topicos-site1 .layout-topicos h2, main #topicos-site1 .layout-topicos2 h2{
+main #topicos-site1 .layout-topicos h2,
+main #topicos-site1 .layout-topicos2 h2,
+main #topicos-site2 .layout-topicos h2,
+main #topicos-site2 .layout-topicos2 h2 {
     color: #FF003D;
     font-weight: 700;
     font-size: 4rem;
 }
 
-main #topicos-site1 .layout-topicos p, main #topicos-site1 .layout-topicos2 p{
+main #topicos-site1 .layout-topicos p,
+main #topicos-site1 .layout-topicos2 p,
+main #topicos-site2 .layout-topicos p,
+main #topicos-site2 .layout-topicos2 p {
     width: 30rem;
     margin-bottom: 2rem;
 }
@@ -72,26 +103,73 @@ main #topicos-site2 {
     color: #fff;
 }
 
-main #topicos-site2 .layout-topicos{
+main #topicos-site2 .layout-topicos {
     padding-bottom: 10rem;
 }
 
-main #topicos-site2 .layout-topicos2{
+main #topicos-site2 .layout-topicos2 {
     padding-top: 5rem;
 }
 
-main #topicos-site2 .layout-topicos h2, main #topicos-site2 .layout-topicos2 h2{
-    color: #FF003D;
-    font-weight: 700;
-    font-size: 4rem;
+@media (max-width: 1027px) {
+
+    main #topicos-site1 .layout-topicos h2,
+    main #topicos-site1 .layout-topicos2 h2,
+    main #topicos-site2 .layout-topicos h2,
+    main #topicos-site2 .layout-topicos2 h2 {
+        font-size: 3rem;
+    }
+
+    main #topicos-site1 .layout-topicos p,
+    main #topicos-site1 .layout-topicos2 p,
+    main #topicos-site2 .layout-topicos p,
+    main #topicos-site2 .layout-topicos2 p {
+        width: 20rem;
+    }
 }
 
-main #topicos-site2 .layout-topicos p, main #topicos-site2 .layout-topicos2 p{
-    width: 30rem;
-    margin-bottom: 2rem;
+@media (max-width: 700px) {
+    
+    main #topicos-site1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    main #topicos-site2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    main #topicos-site1 .layout-topicos h2,
+    main #topicos-site1 .layout-topicos2 h2,
+    main #topicos-site2 .layout-topicos h2,
+    main #topicos-site2 .layout-topicos2 h2 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    main #topicos-site1 .layout-topicos p,
+    main #topicos-site1 .layout-topicos2 p,
+    main #topicos-site2 .layout-topicos p,
+    main #topicos-site2 .layout-topicos2 p {
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    main #topicos-site2 .layout-topicos,main #topicos-site1 .layout-topicos {
+        padding-bottom: 1rem;
+    }
+    
+    main #topicos-site2 .layout-topicos2.main #topicos-site2 .layout-topicos2 {
+        padding-top: .1rem;
+    }
 }
 
-.button-mais  {
+.button-mais {
     text-decoration: none;
     color: #fff;
     background: #000;
@@ -126,4 +204,4 @@ main #topicos-site2 .layout-topicos p, main #topicos-site2 .layout-topicos2 p{
 
 .button-mais:hover {
     padding: .7rem 1rem;
-}  
+}

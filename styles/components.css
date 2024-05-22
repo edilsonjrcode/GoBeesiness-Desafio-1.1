@@ -49,6 +49,8 @@ button {
     text-decoration: none;
 }
 
+
+
 /***** Footer *****/
 
 footer {
@@ -138,7 +140,7 @@ footer #infos #redes-sociais span{
     
 }
 
-@media (max-width: 379px) {
+@media (max-width: 450px) {
 
     footer {
         height: 18rem;
