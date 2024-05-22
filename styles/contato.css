@@ -24,7 +24,7 @@ main #title #line {
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
-    height: 90vh;
+    height: 50rem;
 }
 
 #contato #info-pessoal{
@@ -151,12 +151,6 @@ main #title #line {
 }
 
 @media (max-width: 618px) {
-
- 
-
-    #contato{
-        height: 80vh;
-    }
 
     #contato #info-pessoal a{
         font-size: .8rem;
